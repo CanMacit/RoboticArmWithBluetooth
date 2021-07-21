@@ -1,0 +1,45 @@
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\BluetoothController.deps.json
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\BluetoothController.dll
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.csprojAssemblyReference.cache
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.AssemblyInfoInputs.cache
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.AssemblyInfo.cs
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\ref\BluetoothController.dll
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\BluetoothController.pdb
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\PairedDevices.xaml.g.cs
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\SendData.xaml.g.cs
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.csproj.CoreCompileInputs.cache
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.dll
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\ref\BluetoothController.dll
+C:\Users\mcmac\Desktop\BluetoothClassicApp\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.pdb
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\BluetoothController.deps.json
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\BluetoothController.dll
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\ref\BluetoothController.dll
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\BluetoothController.pdb
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.csprojAssemblyReference.cache
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\PairedDevices.xaml.g.cs
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\SendData.xaml.g.cs
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.AssemblyInfoInputs.cache
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.AssemblyInfo.cs
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.csproj.CoreCompileInputs.cache
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.dll
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\ref\BluetoothController.dll
+C:\Users\mcmac\Desktop\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.pdb
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\BluetoothController.deps.json
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\BluetoothController.dll
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\ref\BluetoothController.dll
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\bin\Debug\netstandard2.0\BluetoothController.pdb
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.csprojAssemblyReference.cache
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\PairedDevices.xaml.g.cs
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\SendData.xaml.g.cs
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.AssemblyInfoInputs.cache
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.AssemblyInfo.cs
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.csproj.CoreCompileInputs.cache
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.dll
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\ref\BluetoothController.dll
+C:\Users\mcmac\Desktop\Macit\mobile\Mobile Apps\LedControllerDemo\BluetoothController\BluetoothController\obj\Debug\netstandard2.0\BluetoothController.pdb

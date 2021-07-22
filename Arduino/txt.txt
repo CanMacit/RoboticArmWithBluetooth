@@ -1,1 +1,239 @@
-wegwegw
+#include <DC_Motor.h>
+DC_Motor myDCMotor;
+
+int data;
+const int in1=PA7;
+const int in2=PA6;
+const int in3=PA5;
+const int in4=PA4;	
+const int in21=PA3;
+const int in22=PA2;
+const int in23=PA1;
+const int in24=PA0;
+int const trimPin = PB12;
+int trimVal;
+int angle;
+int trigPinFront = 2; //HC0-6 
+int echoPinFront = 3;
+long durationFront;
+int distanceFront;
+int df;
+int data;
+
+void setup(){
+
+  Serial.begin(9600);
+  pinMode(in1,OUTPUT);
+  pinMode(in2,OUTPUT);
+  pinMode(in3,OUTPUT);
+  pinMode(in4,OUTPUT);
+  pinMode(in21,OUTPUT);
+  pinMode(in22,OUTPUT);
+  pinMode(in23,OUTPUT);
+  pinMode(in24,OUTPUT);
+  myDCMotor.attach(in1);
+  myDCMotor.attach(in2);
+    
+}
+
+void loop(){
+
+   if(Serial.available())
+  {
+    data = Serial.read();
+
+  trimVal = analogRead(trimPin);
+  Serial.print("trimVal : ");
+  Serial.print(trimVal);
+  angle = map(trimVal,0,1023,0,180); // 0 1023 value between  0-180 angle can move 
+  Serial.print(", angle: ");
+  Serial.println(angle);
+
+  delay(2500);
+  myDCMotor.write(angle);
+
+df=calculateDistanceFront();
+Serial.print("front: ");
+Serial.println(df);
+
+void olc(){
+  delay(1000);
+}
+
+void turnLeft(int timeout){
+        analogWrite(PAin1,255);
+        delay(timeout);
+        analogWrite(PAin1,0);
+        delay(50);   
+}
+void turnRight(int timeout){
+        analogWrite(PAin2,255);
+        delay(timeout);
+        analogWrite(PAin2,0);
+        delay(50);
+}
+void bodyBackward(int timeout){
+        analogWrite(PAin3,255);
+        delay(timeout);
+        analogWrite(PAin3,0);
+        delay(50);
+}
+void bodyForward(int timeout){
+        analogWrite(PAin4,160);
+        delay(timeout);
+        analogWrite(PAin4,0);
+        delay(50);
+}
+
+void bodyUp(int timeout){
+        analogWrite(PBin1,166);
+        delay(timeout);
+        analogWrite(PBin1,0);
+        delay(50);
+}
+void bodyDown(int timeout){
+        analogWrite(PBin2,166);
+        delay(timeout);
+        analogWrite(PBin2,0);
+        delay(50);
+}
+
+void releaseItem(int timeout){
+        analogWrite(PBin3,166);
+        delay(timeout);
+        analogWrite(PBin3,0);
+        delay(50);
+}
+void squizeItem(int timeout){
+        analogWrite(PBin4,166);
+        delay(timeout);
+        analogWrite(PBin4,0);
+        delay(50);
+}
+void grabAndDrag(){
+    bodyUp(80);
+    olc();
+    bodyForward(500);
+    olc();
+    squizeItem(650);
+    olc();
+    bodyBackward(830);
+    olc();
+    bodyDown(80);
+    olc();
+    turnLeft(500);
+    olc();
+    
+    bodyUp(80);
+    olc();
+    bodyForward(500);
+    olc();
+    releaseItem(350);
+    olc();
+  
+}
+int calculateDistanceFront(){ 
+  digitalWrite(trigPinFront, LOW); 
+  delayMicroseconds(2);
+
+  digitalWrite(trigPinFront, HIGH); 
+  delayMicroseconds(1000);
+  digitalWrite(trigPinFront, LOW);
+  durationFront = pulseIn(echoPinFront, HIGH); 
+  distanceFront= (durationFront / 2) / 28.5;
+  return distanceFront;
+}
+
+
+   if(data=='0')
+   {
+   digitalWrite(Pin1,LOW); 
+   digitalWrite(Pin2,LOW);
+   digitalWrite(Pin3,LOW);              
+   digitalWrite(Pin4,LOW);
+   digitalWrite(Pin21,LOW); 
+   digitalWrite(Pin22,LOW);
+   digitalWrite(Pin23,LOW); 
+   digitalWrite(Pin24,LOW);
+   }
+
+
+    if(data=='1') 
+   {
+   
+   bodyUp();
+  Serial.print(", angle: ");
+  Serial.println(angle);
+   
+   }
+   
+   if(data=='2')
+   {
+   
+   bodyDown();
+  Serial.print(", angle: ");
+  Serial.println(angle);
+   }
+
+   if(data=='3')
+   {
+   
+   turnLeft();
+   }
+   
+   if(data=='4')
+   {
+  
+   turnRight();
+   }
+
+    if(data=='5')
+   {
+   
+   bodyBackward();
+   }
+
+    if(data=='6')
+   {
+   
+  bodyForward();
+   }
+
+   if(data=='7')
+   {
+   
+   releaseItem();
+   }
+
+
+   if(data=='8')
+   {
+   
+   squizeItem();
+   
+   }
+    if(data=='9')
+   {
+      for(int i = 0;i<10000000000000;i++){
+       df=calculateDistanceFront();
+       Serial.print("front: ");
+       Serial.println(df);
+       if(df>30 ){
+      digitalWrite(Pin1,0);
+      digitalWrite(Pin2,180);
+      delay(500);
+      digitalWrite(Pin1,0);
+      digitalWrite(Pin2,0);
+      delay(1000);
+      digitalWrite(Pin1,180);
+      digitalWrite(Pin2,0);
+      delay(500);
+      digitalWrite(Pin1,0);
+      digitalWrite(Pin2,0);
+      delay(1000);
+   } else {
+     grabAndDrag();
+     
+     }
+}}}
+   }
